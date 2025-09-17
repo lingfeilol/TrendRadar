@@ -1,0 +1,145 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2025-09-17 17:38:42</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>newcoder</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">4</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2147240" target="_blank" class="news-link">华为发布面向智能世界2035十大技术趋势</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2147423" target="_blank" class="news-link">增长10万倍！华为预测十年后算力规模 这些需求也有望水涨船高</a> [7] <font color='grey'>- 17时38分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345070&amp;amp;topic_name=%E5%8D%8E%E4%B8%BA%E9%94%80%E5%86%A0%E6%8D%A2%E4%BA%BA%2C%E5%BA%93%E5%85%8B%E8%92%99%E4%BA%86" target="_blank" class="news-link">华为销冠换人,库克蒙了</a> [10] <font color='grey'>- 17时38分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2147586" target="_blank" class="news-link">华为三款旗舰手机降价，华为Mate X6最高降价2000元</a> [12] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.6%</td>
+                <td class="titles">[github] <a href="https://github.com/SkyworkAI/DeepResearchAgent" target="_blank" class="news-link">SkyworkAI / DeepResearchAgent</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时38分</font><br>[github] <a href="https://github.com/virattt/ai-hedge-fund" target="_blank" class="news-link">virattt / ai-hedge-fund</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时38分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755739" target="_blank" class="news-link">高盛：中国AI基础设施叙事重燃，企业级大模型Token消耗量暴涨，阿里是核心受益者</a> [7] <font color='grey'>- 17时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">2</td>
+                <td class="percentage">1.06%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2147656" target="_blank" class="news-link">工信部就智能网联汽车组合驾驶辅助相关标准公开征求意见</a> [6] <font color='grey'>- 17时38分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%95%BF%E6%98%A5%E8%88%AA%E5%B1%95%E6%BC%94%E7%BB%83%E4%B8%A4%E9%A3%9E%E8%A1%8C%E6%B1%BD%E8%BD%A6%E7%9B%B8%E6%92%9E" target="_blank" class="news-link">长春航展演练两飞行汽车相撞</a> [20] <font color='grey'>- 17时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E8%BD%A6%E9%A1%B6%E7%BB%B4%E6%9D%83%E5%A5%B3%E8%BD%A6%E4%B8%BB%E8%83%9C%E8%AF%89" target="_blank" class="news-link">特斯拉车顶维权女车主胜诉</a> [18] <font color='grey'>- 17时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[github] <a href="https://github.com/microsoft/markitdown" target="_blank" class="news-link">microsoft / markitdown</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2147397" target="_blank" class="news-link">沙特支付生态将迎来巨变：谷歌支付全面上线，支付宝2026年接入</a> [11] <font color='grey'>- 17时38分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2147252" target="_blank" class="news-link">机器人全线爆发带动短线情绪显著回暖，能否成为新一轮行情领涨主线？</a> [13] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9B%9D%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85%E9%A6%96%E6%AC%BE5nm%E5%85%89%E5%88%BB%E6%9C%BA%E6%AD%A3%E5%9C%A8%E6%B5%8B%E8%AF%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26stream_entry_id%3D31%26pos%3D23%26flag%3D1%26q%3D%2523%25E6%259B%259D%25E4%25B8%25AD%25E8%258A%25AF%25E5%259B%25BD%25E9%2599%2585%25E9%25A6%2596%25E6%25AC%25BE5nm%25E5%2585%2589%25E5%2588%25BB%25E6%259C%25BA%25E6%25AD%25A3%25E5%259C%25A8%25E6%25B5%258B%25E8%25AF%2595%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D24%26cate%3D5001%26band_rank%3D24%26display_time%3D1758101821%26pre_seqid%3D175810182108101382358102" target="_blank" class="news-link">曝中芯国际首款5nm光刻机正在测试</a> [24] <font color='grey'>- 17时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+        <h4>财联社热门 (2 条)</h4><ul><li><a href="https://www.cls.cn/detail/2147586" target="_blank" class="news-link">华为三款旗舰手机降价，华为Mate X6最高降价2000元</a> [12]</li><li><a href="https://www.cls.cn/detail/2147252" target="_blank" class="news-link">机器人全线爆发带动短线情绪显著回暖，能否成为新一轮行情领涨主线？</a> [13]</li></ul><h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%9B%9D%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85%E9%A6%96%E6%AC%BE5nm%E5%85%89%E5%88%BB%E6%9C%BA%E6%AD%A3%E5%9C%A8%E6%B5%8B%E8%AF%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26stream_entry_id%3D31%26pos%3D23%26flag%3D1%26q%3D%2523%25E6%259B%259D%25E4%25B8%25AD%25E8%258A%25AF%25E5%259B%25BD%25E9%2599%2585%25E9%25A6%2596%25E6%25AC%25BE5nm%25E5%2585%2589%25E5%2588%25BB%25E6%259C%25BA%25E6%25AD%25A3%25E5%259C%25A8%25E6%25B5%258B%25E8%25AF%2595%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26realpos%3D24%26cate%3D5001%26band_rank%3D24%26display_time%3D1758101821%26pre_seqid%3D175810182108101382358102" target="_blank" class="news-link">曝中芯国际首款5nm光刻机正在测试</a> [24]</li></ul></div>
+    </body>
+    </html>
+    
