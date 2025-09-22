@@ -1,0 +1,129 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 193</p><p>生成时间: 2025-09-22 11:36:58</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>newcoder</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">3</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756000" target="_blank" class="news-link">握手、聊天、并肩而坐！马斯克与特朗普“闹翻后首度同框”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时36分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755981" target="_blank" class="news-link">人形机器人的全球竞争格局：中国领跑商业化、特斯拉Optimus V3最受关注、韩国正在追赶中美</a> [7] <font color='grey'>- 11时36分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2151355" target="_blank" class="news-link">关系缓和新迹象？马斯克与特朗普闹掰后再同框 现场图曝光</a> [8] <font color='grey'>- 11时36分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles">[github] <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" class="news-link">x1xhlol / system-prompts-and-models-of-ai-tools</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时36分</font><br>[github] <a href="https://github.com/HKUDS/AI-Researcher" target="_blank" class="news-link">HKUDS / AI-Researcher</a> [12] <font color='grey'>- 11时36分</font><br>[github] <a href="https://github.com/JetBrains/intellij-community" target="_blank" class="news-link">JetBrains / intellij-community</a> [18] <font color='grey'>- 11时36分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[github] <a href="https://github.com/microsoft/AI-For-Beginners" target="_blank" class="news-link">microsoft / AI-For-Beginners</a> [11] <font color='grey'>- 11时36分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2151217" target="_blank" class="news-link">机器人规模化量产的最后一环 灵巧手产业链价值量居前环节的A股上市公司名单一览</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时36分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2151255" target="_blank" class="news-link">自研主控芯片部署规模将实现放量增长 国产芯片概念股单日涨超12% 本周机构密集调研相关上市公司</a> [6] <font color='grey'>- 11时36分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756002" target="_blank" class="news-link">申万宏源：本轮科技行情可能在26年春节前“演绎至历史极点”，类似“2013年底的创业板”和“2017年底的食品饮料”</a> [10] <font color='grey'>- 11时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3756002" target="_blank" class="news-link">申万宏源：本轮科技行情可能在26年春节前“演绎至历史极点”，类似“2013年底的创业板”和“2017年底的食品饮料”</a> [10]</li></ul></div>
+    </body>
+    </html>
+    
