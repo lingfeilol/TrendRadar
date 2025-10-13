@@ -1,0 +1,145 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 193</p><p>生成时间: 2025-10-13 17:19:46</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>newcoder</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技</td>
+                <td class="count">4</td>
+                <td class="percentage">2.07%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">TACO交易？美股纳指期货涨2%，科技股盘前集体走高，数字货币大幅反弹，黄金续创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时19分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2166935" target="_blank" class="news-link">【早报】美方威胁对华加征关税，商务部回应；闻泰科技重要子公司资产被冻结</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2166881" target="_blank" class="news-link">子公司安世半导体突遭荷兰政府“发难” 闻泰科技：以“合规”为名，行夺权之实</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时19分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2167548" target="_blank" class="news-link">荷兰政府对闻泰科技子公司下手，外交部回应</a> [7] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.55%</td>
+                <td class="titles">[github] <a href="https://github.com/daytonaio/daytona" target="_blank" class="news-link">daytonaio / daytona</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时19分</font><br>[github] <a href="https://github.com/alibaba/spring-ai-alibaba" target="_blank" class="news-link">alibaba / spring-ai-alibaba</a> [16] <font color='grey'>- 17时19分</font><br>[github] <a href="https://github.com/Klavis-AI/klavis" target="_blank" class="news-link">Klavis-AI / klavis</a> [19] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757042" target="_blank" class="news-link">马斯克旗下xAI加入“世界模型”竞赛，“视觉模型”会是下一个“大语言模型”吗？</a> [9] <font color='grey'>- 17时19分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7560532501543731219/" target="_blank" class="news-link">马斯克“巨硬”项目能颠覆软件业吗</a> [18] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">1.04%</td>
+                <td class="titles">[github] <a href="https://github.com/anthropics/claude-code" target="_blank" class="news-link">anthropics / claude-code</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时19分</font><br>[github] <a href="https://github.com/davila7/claude-code-templates" target="_blank" class="news-link">davila7 / claude-code-templates</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2166988" target="_blank" class="news-link">华为、阿里等巨头捧场，智元、宇树新秀助阵 中国移动这场大会“AI+”含金量高</a> [11] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2167011" target="_blank" class="news-link">Win10即将停服，微软建议</a> [12] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2167067" target="_blank" class="news-link">加拿大地方政府要求取消对中国电动汽车关税</a> [6] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">0.52%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757056" target="_blank" class="news-link">超预期！中国9月以美元计价出口同比增长8.3%，进口同比增7.4% 工业机器人和风电出口增长强劲</a> [8] <font color='grey'>- 17时19分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">TACO交易？美股纳指期货涨2%，科技股盘前集体走高，数字货币大幅反弹，黄金续创新高</a> <font color='red'><strong>[1]</strong></font></li></ul></div>
+    </body>
+    </html>
+    
